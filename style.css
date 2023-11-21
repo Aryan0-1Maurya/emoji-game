@@ -1,0 +1,136 @@
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+* {
+     outline : 0;
+     font-family: 'Rubik', sans-serif;
+     text-align: center;
+}
+
+body {
+    margin: 0px;
+    background: linear-gradient(30deg, #512DA8, #673AB7);
+    height: 100vh;
+}
+
+.header {
+    background: rgba(255,255,255,.25);
+    margin-top: 5px;
+    padding: 10px 0px 10px 0px;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.game {
+    width: 100%;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input {
+    background: rgba(255,255,255,.75) ;
+    padding: 10px;
+    border: 1px solid #673AB7;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 80px;
+    color: #512DA8;
+}
+.answer {
+    margin-top: 16px;
+    width: 300px;
+    position: relative;
+    
+}
+.done ,.del{
+    background-color: #673AB7;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px lightgrey;
+    padding: 8px;
+    width:250px;
+    color: white;
+}
+
+.item {
+    background: rgba(255,255,255,.8);
+    padding: 8px;
+    border-radius: 8px;
+    width: 30px;
+    display: inline-block;
+    color: #512DA8;
+    margin: 0px 5px 0px 5px;
+}
+.answer .missing {
+    background: rgba(255,255,255,.75);
+    padding: 5px;
+    padding-bottom: 9px;
+    border-radius: 8px;
+    width: 80px;
+    display: inline-block;
+    color: #512DA8;
+    font-size: 23px;
+    
+}
+
+.del {
+    width: 50px;
+    margin: 0px;
+    border-radius: 8px;
+    background: rgba(255,255,255,.75);
+    border-color: transparent ;
+    color: #673AB7;
+}
+.nums {
+    margin: 10px;
+}
+
+.nums button {
+    display: inline-block;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 6.5px;
+}
+
+
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
